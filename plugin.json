@@ -1,0 +1,39 @@
+{
+  "id": "welcome-banner",
+  "name": "welcome-banner",
+  "displayName": "Welcome Banner",
+  "version": "1.0.0",
+  "description": "A simple welcome banner plugin for Artemis",
+  "author": "PixelCloud Tech",
+  "license": "MIT",
+  "type": "custom",
+  "tags": ["banner", "welcome", "ui"],
+  "context": "client",
+  "actions": [],
+  "stateHooks": [],
+  "events": [],
+  "dependencies": [],
+  "envVariables": [],
+  "configSchema": [
+    {
+      "name": "title",
+      "type": "string",
+      "required": true,
+      "defaultValue": "Welcome!",
+      "description": "Banner title"
+    },
+    {
+      "name": "backgroundColor",
+      "type": "string",
+      "required": false,
+      "defaultValue": "#2563eb",
+      "description": "Background color (CSS color)"
+    }
+  ],
+  "hookExport": "useWelcomeBanner",
+  "artemisVersion": "0.1.0",
+  "props": {
+    "title": "Welcome to Artemis",
+    "backgroundColor": "#2563eb"
+  }
+}
