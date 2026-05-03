@@ -11,6 +11,7 @@
   "context": "client",
   "actions": [],
   "stateHooks": [],
+  "backend": { "enabled": true }
   "events": [],
   "dependencies": [],
   "envVariables": [],
